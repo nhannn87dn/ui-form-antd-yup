@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ui-form-antd-yup/static/css/main.5aeb2a48.css",
+    "main.js": "/ui-form-antd-yup/static/js/main.c23eab7c.js",
+    "static/js/787.a14c05c3.chunk.js": "/ui-form-antd-yup/static/js/787.a14c05c3.chunk.js",
+    "index.html": "/ui-form-antd-yup/index.html",
+    "main.5aeb2a48.css.map": "/ui-form-antd-yup/static/css/main.5aeb2a48.css.map",
+    "main.c23eab7c.js.map": "/ui-form-antd-yup/static/js/main.c23eab7c.js.map",
+    "787.a14c05c3.chunk.js.map": "/ui-form-antd-yup/static/js/787.a14c05c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5aeb2a48.css",
+    "static/js/main.c23eab7c.js"
+  ]
+}
