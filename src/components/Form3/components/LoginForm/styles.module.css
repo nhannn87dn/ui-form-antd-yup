@@ -1,0 +1,33 @@
+.login__wrapper {
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    flex: 1;
+    padding-top: 60px;
+}
+
+.login_form {
+   flex-basis: 300px;
+}
+
+.title_form {
+    font-weight: 700;
+    font-size: 26px;
+    color: #C8250B;
+    margin-top:80px;
+}
+.subtitle_form {
+    font-weight: 600;
+}
+.login_form a {
+    color: #C8250B;
+}
+
+.my_btn_primary {
+    background: #C8250B;
+    border-color: #C8250B;
+}
+.my_btn_primary:hover {
+    background: #d6290f;
+    border-color: #d6290f;
+}

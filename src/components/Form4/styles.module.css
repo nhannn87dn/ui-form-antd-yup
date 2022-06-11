@@ -1,0 +1,32 @@
+.layout_wrapper {
+    min-height: 600px;
+    width: 100vw;
+    overflow: hidden;
+    background: #000;  /* fallback for old browsers */
+    background: linear-gradient(to right,rgb(0,0,0,1), rgb(0,0,0,0.8)), url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,rgb(0,0,0,1), rgb(0,0,0,0.8)), url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 680px;
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+

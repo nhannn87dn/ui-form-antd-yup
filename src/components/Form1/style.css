@@ -1,0 +1,122 @@
+.layout_wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #F8C0BD;
+    padding: 40px 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+   
+}
+
+.devices_mockup {
+    flex-basis: 290px;
+    min-width: 290px;
+    background-color: #000;
+    height: 580px;
+    margin: 0 40px;
+    border-radius: 20px;
+    padding:20px 10px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.hiform .wrapper_main {
+    margin-top: auto;
+}
+.sigupform .wrapper_main, .loginform .wrapper_main{
+    align-self: center;
+    margin: auto 0;
+}
+
+
+.wrapper_main h2.title {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.wrapper_form {
+    background-color: rgba(255,255, 255, .15);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.wrapper_form input{
+    margin-top: 10px;
+    border-radius:8px;
+}
+.wrapper_form .ant-input-password {
+    border-radius:8px;
+}
+
+.wrapper_form .ant-input-password input{
+    margin-top: 0;
+   
+}
+
+.wrapper_form  .ant-form-item-label {
+    display: none !important;
+    flex-grow: unset
+}
+.wrapper_form button{
+    margin-top: 10px;
+    border-radius:8px;
+}
+.wrapper_form  .ant-form-item {
+    margin-bottom: 10px;
+}
+.wrapper_form button.ant-btn-primary{
+    background-color: #00C38E;
+    border-color: #00C38E;
+    margin-top: 0;
+}
+.social_login button{
+    text-align: left;
+}
+.social_login button svg {
+    margin-right: 15px;
+}
+
+
+.form_footer {
+    margin: 10px 0;
+}
+.notice {
+    color: #fff;
+    margin-bottom: 0;
+}
+.notice_green {
+    color: darkgreen;
+    font-weight: 500;
+}
+.or{
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.loginform .profiles {
+    display: flex;
+    margin-bottom: 20px;
+}
+.profile_info {
+    margin-left: 15px;
+}
+.profile_info p{
+    color: #fff;
+    margin: 0;
+}
+.profile_info p.profile_name{
+    font-weight: bold;
+}
+
+
+@media (max-width: 800px) {
+    .devices_mockup {
+        margin: 20px;
+    }
+    
+}
